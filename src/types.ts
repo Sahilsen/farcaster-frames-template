@@ -16,3 +16,9 @@ export type FrameSignaturePacket = {
     messageBytes: string;
   };
 };
+export interface TokenBalance {
+  name: string; // Token Name
+  address: string; // Token Address
+  totalBalance: string; // Token Balance
+  decimals: string; // Token Decimal Places
+}
